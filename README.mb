@@ -1,0 +1,7 @@
+Configuração:
+
+1 - Importe o banco que está dentro da pasta database
+2 - No arquivo index.php(raiz), configure o ambiente(development ou production)
+3 - De acordo com o ambiente configurado, na pasta application/config/(ambiente):
+    3.1 - Config.php: Altere a $config['base_url'] 
+    3.2 - database.php: Altere os dados de conexao com o banco.
